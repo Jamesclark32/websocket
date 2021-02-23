@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace James clark\InteractiveWebsocket\Tests;
 
 use PHPUnit\Framework\TestCase;
 

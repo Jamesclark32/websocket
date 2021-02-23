@@ -1,16 +1,15 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "jamesclark32/interactive-websocket",
+    "description": "A websocket library focused on easy-to-access bidirectional messaging",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "interactive-websocket"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/jamesclark32/interactive-websocket",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "James Clark",
+            "email": "james@weno.net",
             "role": "Developer"
         }
     ],
@@ -25,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "James clark\\InteractiveWebsocket\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "James clark\\InteractiveWebsocket\\Tests\\": "tests"
         }
     },
     "scripts": {
