@@ -117,8 +117,7 @@ class WebsocketServer
         if ($loop) {
             try {
                 $streamSocket = $this->streamWrapper->getStreamSocket();
-                if (!empty($streamSocket)) {
-
+                if (! empty($streamSocket)) {
                     $loop->addReadStream($streamSocket, function ($server) {
                         $conn = stream_socket_accept($server);
                         $message = fgets($conn);
