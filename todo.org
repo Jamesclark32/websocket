@@ -1,4 +1,0 @@
-* TODO test websocket director base
-* TODO flesh out default websocket director
-* TODO migrate sendToAll socket helper/writer library. make static.
-* TODO fuck it that'll do?

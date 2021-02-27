@@ -57,7 +57,7 @@ class DefaultWebsocketDirector extends WebsocketDirectorBase
      */
     public function onMessage(ConnectionInterface $conn, MessageInterface $msg)
     {
-        $this->sendToAll($msg);
+        $this->sendToAll((string) $msg->getPayload());
     }
 
     /**
