@@ -2,8 +2,6 @@
 
 namespace JamesClark32\Websocket;
 
-use http\Exception\InvalidArgumentException;
-
 class StreamWrapper
 {
     protected $streamSocket = null;

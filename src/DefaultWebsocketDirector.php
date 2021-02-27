@@ -115,6 +115,7 @@ class DefaultWebsocketDirector extends WebsocketDirectorBase
     {
         if (property_exists($connection, 'resourceId')) {
             $objectProperties = get_object_vars($connection);
+
             return $objectProperties['resourceId'];
         }
 
