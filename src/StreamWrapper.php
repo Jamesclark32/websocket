@@ -17,6 +17,7 @@ class StreamWrapper
     public function setPort(int $port): StreamWrapper
     {
         $this->port = $port;
+
         return $this;
     }
 
@@ -53,7 +54,7 @@ class StreamWrapper
      */
     protected function validateIsResource($streamSocket): void
     {
-        if (!is_resource($streamSocket)) {
+        if (! is_resource($streamSocket)) {
             throw new InvalidArgumentException(
                 sprintf(
                     '$streamSocket provided to StreamWrapper::setStreamSocket() must be a valid resource type. %s given.',

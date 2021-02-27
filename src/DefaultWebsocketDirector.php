@@ -116,6 +116,7 @@ class DefaultWebsocketDirector extends WebsocketDirectorBase
         if (property_exists($connection, 'resourceId')) {
             return $connection->resourceId;
         }
+
         return null;
     }
 

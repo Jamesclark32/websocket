@@ -33,6 +33,7 @@ class WebsocketServer
     public function setHttpServer(HttpServer $httpServer): WebsocketServer
     {
         $this->httpServer = $httpServer;
+
         return $this;
     }
 
@@ -44,6 +45,7 @@ class WebsocketServer
     public function setIoServer(IoServer $ioServer): WebsocketServer
     {
         $this->ioServer = $ioServer;
+
         return $this;
     }
 
@@ -55,6 +57,7 @@ class WebsocketServer
     public function setWebsocketDirector(WebsocketDirectorBase $websocketDirector): WebsocketServer
     {
         $this->websocketDirector = $websocketDirector;
+
         return $this;
     }
 
@@ -66,6 +69,7 @@ class WebsocketServer
     public function setWsServer(WsServer $wsServer): WebsocketServer
     {
         $this->wsServer = $wsServer;
+
         return $this;
     }
 
@@ -179,6 +183,7 @@ class WebsocketServer
     public function setStreamWrapper(?StreamWrapper $streamWrapper): WebsocketServer
     {
         $this->streamWrapper = $streamWrapper;
+
         return $this;
     }
 }

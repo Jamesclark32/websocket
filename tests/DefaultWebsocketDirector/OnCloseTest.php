@@ -21,7 +21,6 @@ class OnCloseTest extends TestCase
         $director->onClose($connection);
 
         $this->assertArrayNotHasKey($connection->resourceId, $director->getClients());
-
     }
 }
 
@@ -29,20 +28,18 @@ class OnCloseConnection implements ConnectionInterface
 {
     public int $resourceId;
 
-    function __construct()
+    public function __construct()
     {
         $this->resourceId = rand(1, 9999);
     }
 
-    function send($data)
+    public function send($data)
     {
         //
     }
 
-    function close()
+    public function close()
     {
         //
     }
 }
-
-

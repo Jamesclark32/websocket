@@ -2,7 +2,6 @@
 
 namespace JamesClark32\Websocket\Tests\WebsocketServer;
 
-
 use JamesClark32\Websocket\StreamWrapper;
 use JamesClark32\Websocket\WebsocketDirectorBase;
 use JamesClark32\Websocket\WebsocketServer;
