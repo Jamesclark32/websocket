@@ -1,6 +1,6 @@
 <?php
 
-namespace James clark\InteractiveWebsocket\Tests;
+namespace JamesClark32\Websocket\Tests;
 
 use PHPUnit\Framework\TestCase;
 
