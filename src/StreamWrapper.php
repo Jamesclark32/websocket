@@ -55,7 +55,7 @@ class StreamWrapper
     protected function validateIsResource($streamSocket): void
     {
         if (! is_resource($streamSocket)) {
-            throw new InvalidArgumentException(
+            throw new \InvalidArgumentException(
                 sprintf(
                     '$streamSocket provided to StreamWrapper::setStreamSocket() must be a valid resource type. %s given.',
                     gettype($streamSocket)

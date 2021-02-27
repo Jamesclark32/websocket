@@ -114,7 +114,8 @@ class DefaultWebsocketDirector extends WebsocketDirectorBase
     protected function fetchResourceIdFromConnection(ConnectionInterface $connection)
     {
         if (property_exists($connection, 'resourceId')) {
-            return $connection->resourceId;
+            $objectProperties = get_object_vars($connection);
+            return $objectProperties['resourceId'];
         }
 
         return count($this->clients);

@@ -116,11 +116,15 @@ class WebsocketServer
 
         if ($loop) {
             try {
-                $loop->addReadStream($this->streamWrapper->getStreamSocket(), function ($server) {
-                    $conn = stream_socket_accept($server);
-                    $message = fgets($conn);
-                    $this->websocketDirector->sendToAll($message);
-                });
+                $streamSocket = $this->streamWrapper->getStreamSocket();
+                if (!empty($streamSocket)) {
+
+                    $loop->addReadStream($streamSocket, function ($server) {
+                        $conn = stream_socket_accept($server);
+                        $message = fgets($conn);
+                        $this->websocketDirector->sendToAll($message);
+                    });
+                }
             } catch (\Exception $e) {
                 //@TODO: handle exception sanely
             }
