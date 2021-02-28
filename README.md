@@ -5,7 +5,9 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/jamesclark32/interactive-websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/interactive-websocket)
 
 
-This package aims to make highly interactive websocket applications easier to develop. 
+This package aims to make highly interactive websocket applications easier to develop by facilitating high traffic be-directional traffic amongst many users. 
+
+This package is a work in progress and is not yet stable.
 
 ## Installation
 
@@ -16,6 +18,7 @@ composer require jamesclark32/websocket
 ```
 
 ## Usage
+Documentation coming soon
 
 ## Testing
 
