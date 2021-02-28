@@ -1,8 +1,8 @@
 # A websocket library focused on easy-to-access bidirectional messaging
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/jamesclark32/interactive-websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/interactive-websocket)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/jamesclark32/interactive-websocket/Tests?label=tests)](https://github.com/jamesclark32/interactive-websocket/actions?query=workflow%3ATests+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/jamesclark32/interactive-websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/interactive-websocket)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jamesclark32/websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/websocket)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/jamesclark32/websocket/Tests?label=tests)](https://github.com/jamesclark32/websocket/actions?query=workflow%3ATests+branch%3Amaster)
+[![Total Downloads](https://img.shields.io/packagist/dt/jamesclark32/websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/websocket)
 
 
 This package aims to make highly interactive websocket applications easier to develop by facilitating high traffic be-directional traffic amongst many users. 
