@@ -14,8 +14,8 @@ class WebsocketServer
     protected ?WsServer $wsServer = null;
     protected ?StreamWrapper $streamWrapper = null;
 
-    protected int $websocketPort = 8833;
     protected int $dataSocketPort = 8830;
+    protected int $websocketPort = 8831;
 
     public function start()
     {
