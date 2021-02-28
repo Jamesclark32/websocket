@@ -1,7 +1,7 @@
 # A websocket library focused on easy-to-access bidirectional messaging
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jamesclark32/websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/websocket)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/jamesclark32/websocket/Tests?label=tests)](https://github.com/jamesclark32/websocket/actions?query=workflow%3ATests+branch%3Amaster)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/jamesclark32/websocket/Tests?label=tests)](https://github.com/jamesclark32/websocket/actions?query=workflow%3ATests+branch%main)
 [![Total Downloads](https://img.shields.io/packagist/dt/jamesclark32/websocket.svg?style=flat-square)](https://packagist.org/packages/jamesclark32/websocket)
 
 
