@@ -9,8 +9,8 @@ class WebsocketMessenger
     public function sendToAll(string $message)
     {
         $streamPointer = stream_socket_client('tcp://127.0.0.1:'.$this->dataSocketPort, $errorNumber, $errorMessage);
-        if (!$streamPointer) {
-            throw new \UnexpectedValueException (
+        if (! $streamPointer) {
+            throw new \UnexpectedValueException(
                 sprintf(
                     'stream_socket_client() failed with error %s: %s',
                     $errorNumber,
@@ -29,6 +29,7 @@ class WebsocketMessenger
     public function setDataSocketPort(int $dataSocketPort): WebsocketMessenger
     {
         $this->dataSocketPort = $dataSocketPort;
+
         return $this;
     }
 }
